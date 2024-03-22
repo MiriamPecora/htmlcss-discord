@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dotted {
+    border: dotted 2px;
+}
+
+/* HEADER */
+
+header {
+    background-color: lightskyblue ;
+}
+
+.col-15 {
+    width: 15%;
+}
+
+.col-70 {
+    width: 70%;
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.height-25{
+    height: 25px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+/* MAIN */
+
+
+/* PRIMA */
+
+.blue-bg {
+background-color: rgb(7, 7, 136);
+}
+
+.height-350 {
+    height: 350px;
+}
+
+.col-75{
+    width: 75%;
+    background-color: rgb(201, 91, 211);
+    height: 290px;
+    margin: 0px auto;
+}
+
+/* SECONDA, TERZA E QUARTA SEZIONE*/
+
+.height-390{
+    height: 390px;
+}
+
+.col-30{
+    width: 30%;
+    height: 340px;
+    background-color: pink;
+}
+
+.azure-bg {
+    background-color: rgb(71, 194, 243);
+}
+
+.grey-bg {
+    background-color: rgb(206, 201, 201) ;
+}
+
+/* QUINTA SEZIONE */
+
+.col-100 {
+    width: 100%;
+}
+
+.height-650{
+    height: 650px;
+}
+
+.green {
+    background-color: green;
+}
+
+/* SESTA SEZIONE */
+
+.dark-grey-bg {
+    background-color: rgb(44, 42, 42);
+}
+
+.col-40 {
+    width: 40%;
+    height: 340px;
+    background-color: salmon;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.dotted-wt {
+    border: 2px dotted white;
+    border-left: none;
+}
+
+/* FOOTER */
+
+.aquamarine{
+    background-color: aquamarine;
+}
+
+.bottoni {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.margin{
+    margin-top: 1px;
+}
