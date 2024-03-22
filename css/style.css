@@ -28,7 +28,7 @@ a {
 /* HEADER */
 
 header {
-    background-color: rgb(57, 66, 187);
+    background-color: #255ee9;
     align-items: center;
 }
 
@@ -123,10 +123,6 @@ h1 {
 
 /* SECONDA, TERZA E QUARTA SEZIONE*/
 
-.height-390{
-    height: 390px;
-}
-
 .col-30{
     text-align:left;
     width: 30%;
@@ -193,7 +189,35 @@ h4 {
     background-size:400px;
     padding: 30px;
 }
-/* SESTA SEZIONE */
+
+/* FOOTER */
+
+/* PRIMA PARTE FOOTER */
+
+.blue-txt{
+    color: rgb(117, 117, 241);
+    font-weight: bold;
+}
+
+.wht-txt{
+    color: white;
+    padding-top: 15px;
+}
+
+p img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:flex-start;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+}
 
 .dark-grey-bg {
     background-color: rgb(44, 42, 42);
@@ -201,24 +225,19 @@ h4 {
 
 .col-40 {
     width: 40%;
-    height: 340px;
-    background-color: salmon;
 }
 
-.teal {
-    background-color: teal;
+#icons {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
 }
 
-.dotted-wt {
-    border: 2px dotted white;
-    border-left: none;
+#icons img {
+    width: 20px;
 }
 
-/* FOOTER */
-
-.aquamarine{
-    background-color: aquamarine;
-}
+/* SECONDA PARTE FOOTER */
 
 .bottoni {
     display: flex;
